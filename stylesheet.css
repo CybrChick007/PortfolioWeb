@@ -40,6 +40,19 @@ li {
   text-align: left;
 }
 
+/* -------------------Backgroud Art --------------------- */
+
+header {
+  background-image: linear-gradient(to right, rgba(140, 10, 10, 1), rgba(255, 165, 0, 1));
+  background-repeat: no-repeat,no-repeat,no-repeat;
+  background-position: bottom right, left, right;
+}
+
+.hello {
+  color: white;
+
+}
+
 /*---------------------Navigation--------------------------------*/
 nav li{
   display: inline-block;
