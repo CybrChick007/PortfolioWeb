@@ -1,11 +1,32 @@
-body{
-  
+/*----------------------Textual---------------------*/
+h1 {
+  color: white;
+  font-family: Courier New;
+  font-size: 40;
+  font-weight: bold;
+  text-align: center;
 }
 
-h1{
-
+h2{
+  font-family: Courier New;
+  font-size: 24;
+  position: relative;
+  text-align: center;
 }
 
-p{
+h3{
+  font-size: 130%;
+  padding-left: 2vw;
+}
 
+h4{
+  padding-left: 5vw;
+}
+
+p {
+  font-family: Arial;
+  font-size: 14;
+  font-weight: bold;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
