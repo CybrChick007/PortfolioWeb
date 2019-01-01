@@ -1,32 +1,80 @@
 /*----------------------Textual---------------------*/
 h1 {
-  color: white;
   font-family: Courier New;
-  font-size: 40;
+  font-size: 200%;
   font-weight: bold;
   text-align: center;
 }
 
-h2{
+h2 {
   font-family: Courier New;
-  font-size: 24;
-  position: relative;
-  text-align: center;
+  font-size: 120%;
 }
 
-h3{
+h3 {
   font-size: 130%;
   padding-left: 2vw;
 }
 
-h4{
+h4 {
   padding-left: 5vw;
 }
 
 p {
-  font-family: Arial;
-  font-size: 14;
+  font-family: Courier New;
+  font-size: 90%;
   font-weight: bold;
-  padding-left: 5vw;
-  padding-right: 5vw;
+}
+
+li {
+  font-family: Courier New;
+  font-size: 90%;
+  font-weight: bold;
+}
+
+/* ----------------------Stylised text----------------- */
+
+.intro {
+  display: block;
+  padding-left: 40vw;
+  text-align: left;
+}
+
+/*---------------------Navigation--------------------------------*/
+nav li{
+  display: inline-block;
+}
+
+nav a{
+  color: black;
+  display: block;
+  font-family: Courier New;
+  padding: 1rem;
+}
+
+nav a:hover{
+      border: 2px solid black;
+  }
+
+/* .button1 {
+  background-color: black;
+  color: black;
+  font-size: 15px;
+  width: 150px;
+} */
+
+/* .button2 {
+  color: white ;
+  font-size: 18px;
+  padding: 10px;
+  text-align: center;
+  width: 150px;
+} */
+
+/* ----------------------- Media ------------------------- */
+
+#headshot {
+  height: 20%;
+  width: 20%;
+  padding-left: 15vw;
 }
