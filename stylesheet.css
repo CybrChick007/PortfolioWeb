@@ -1,5 +1,6 @@
 /*----------------------Textual---------------------*/
 h1 {
+  color: white;
   font-family: Courier New;
   font-size: 200%;
   font-weight: bold;
@@ -36,20 +37,34 @@ li {
 
 .intro {
   display: block;
-  padding-left: 40vw;
+  /* padding-left: 40vw; */
   text-align: left;
 }
 
 /* -------------------Backgroud Art --------------------- */
 
 header {
-  background-image: linear-gradient(to right, rgba(140, 10, 10, 1), rgba(255, 165, 0, 1));
-  background-repeat: no-repeat,no-repeat,no-repeat;
-  background-position: bottom right, left, right;
+  grid-area: header;
+
+
 }
 
 .hello {
-  color: white;
+  padding-left: 10%;
+  text-align: left;
+}
+.nextwd {
+  padding-right: 10%;
+  text-align: right;
+}
+
+html{
+  background-image: linear-gradient(to right, rgba(140, 10, 10, 1), rgba(255, 165, 0, 1));
+  background-position: bottom right, left, right;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
 }
 
@@ -69,6 +84,10 @@ nav a:hover{
       border: 2px solid black;
   }
 
+nav {
+  text-align: center;
+}
+
 /* .button1 {
   background-color: black;
   color: black;
@@ -87,7 +106,21 @@ nav a:hover{
 /* ----------------------- Media ------------------------- */
 
 #headshot {
-  height: 20%;
-  width: 20%;
-  padding-left: 10vw;
+  height: 90%;
+  width: 80%;
+  /* padding-left: 10vw; */
+}
+
+/* ---------------------- Grid ------------------------- */
+main {
+  display: grid;
+  width: 100vw;
+  max-width: 60em;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: 15em 1fr;
+  grid-template-areas:
+      "header header header"
+
 }
