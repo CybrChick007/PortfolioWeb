@@ -41,6 +41,10 @@ li {
   text-align: left;
 }
 
+#contact {
+  padding-left: 40%;
+}
+
 /* -------------------Backgroud Art --------------------- */
 
 header {
@@ -117,10 +121,7 @@ main {
   width: 100vw;
   max-width: 60em;
   margin: 0 auto;
-  display: grid;
   grid-gap: 2em;
-  grid-template-columns: 15em 1fr;
+  grid-template-columns:15em;
   grid-template-areas:
-      "header header header"
-
-}
+  "header header header" }
